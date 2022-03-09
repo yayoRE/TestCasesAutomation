@@ -1,0 +1,28 @@
+{
+  "name": "testcasesautomation",
+  "version": "1.0.0",
+  "description": "TestCaseAutomation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/integration/Create-Wire-with-New-Beneficiary.js",
+    "cypress:runChrome": "cypress run --reporter mochawesome --browser chrome "
+  },
+  "keywords": [
+    "TestCases"
+  ],
+  "author": "Yahir Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/yayoRE/TestCasesAutomation.git"
+  }
+}
